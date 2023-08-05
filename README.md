@@ -6,15 +6,15 @@ email: LSantos2000@gmail.com
 
 
 ## Summary
-Santos Real Estate Proof of Concept (POC) webapp using SpringBoot
+Santos Real Estate Proof of Concept (POC) webapp using SpringBoot, Maven or Gradle, Java 17 or greater, Docker, H2, MySQL, PostGress, etc.
 
 ## Running srehi-registry locally
 srehi-mgmt-registry is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/) or [Gradle](https://spring.io/guides/gs/gradle/). You can build a jar file and run it from the command line (it should work just as well with Java 17 or newer):
 
 
 ```
-git clone https://github.com/lsantos2000/srehi/srehi-registry.git
-cd srehi-registry
+git clone https://github.com/lsantos2000/srehi/srehi-mgmt-registry.git
+cd srehi-mgmt-registry
 ./mvnw package
 java -jar target/*.jar
 ```
