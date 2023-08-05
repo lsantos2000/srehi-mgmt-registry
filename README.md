@@ -1,12 +1,12 @@
+# Santos Real Estate Holdings Inc. - SpringBoot Proof of Concept (POC), August 2023
+## Based and extended from a SpringBoot starter project
 
-# Santos Real Estate Holdings Inc. - SpringBoot Proof of Concept (POC)
 By Leonardo Santos-Macias
-
 email: LSantos2000@gmail.com
 
 
 ## Summary
-Santos Real Estate Proof of Concept (POC) webapp using SpringBoot, Maven or Gradle, Java 17 or greater, Docker, H2, MySQL, PostGress, etc.
+Santos Real Estate Proof of Concept (POC) webapp using SpringBoot, Maven, Gradle, Java 17 or greater, Docker, H2, MySQL, PostGress, etc.
 
 ## Running srehi-registry locally
 srehi-mgmt-registry is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/) or [Gradle](https://spring.io/guides/gs/gradle/). You can build a jar file and run it from the command line (it should work just as well with Java 17 or newer):
