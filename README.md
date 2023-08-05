@@ -5,7 +5,7 @@ By Leonardo Santos-Macias
 email: LSantos2000@gmail.com
 
 
-## srehi-mgmt-registry
+## Summary
 Santos Real Estate Proof of Concept (POC) webapp using SpringBoot
 
 ## Running srehi-registry locally
