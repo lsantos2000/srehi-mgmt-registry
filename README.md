@@ -40,7 +40,7 @@ There is no `Dockerfile` in this project. You can build a container image (if yo
 
 ## Database configuration
 
-In its default configuration, Petclinic uses an in-memory database (H2) which
+In its default configuration, srehi-mgmt-registry uses an in-memory database (H2) which
 gets populated at startup with data. The h2 console is exposed at `http://localhost:8080/h2-console`,
 and it is possible to inspect the content of the database using the `jdbc:h2:mem:testdb` url.
  
@@ -108,14 +108,13 @@ The following items should be installed in your system:
     Then either build on the command line `./mvnw generate-resources` or use the Eclipse launcher (right click on project and `Run As -> Maven install`) to generate the css. Run the application main method by right-clicking on it and choosing `Run As -> Java Application`.
 
 3) Inside IntelliJ IDEA
-    In the main menu, choose `File -> Open` and select the Petclinic [pom.xml](pom.xml). Click on the `Open` button.
+    In the main menu, choose `File -> Open` and select the srehi-mgmt-registry [pom.xml](pom.xml). Click on the `Open` button.
 
     CSS files are generated from the Maven build. You can build them on the command line `./mvnw generate-resources` or right-click on the `srehi-registry` project then `Maven -> Generates sources and Update Folders`.
 
-    A run configuration named `srehi-registryApplication` should have been created for you if you're using a recent Ultimate version. Otherwise, run the application by right-clicking on the `srehi-registryApplication` main class and choosing `Run 'Petsrehi-registryApplication'`.
+    A run configuration named `srehi-registryApplication` should have been created for you if you're using a recent Ultimate version. Otherwise, run the application by right-clicking on the `srehi-registryApplication` main class and choosing `Run 'srehi-registryApplication'`.
 
 4) Navigate to srehi-registry
 
     Visit [http://localhost:8080](http://localhost:8080) in your browser.
-
 
